@@ -8,15 +8,15 @@ public class StringReverseTest {
     @Test
     public void reverse_london() throws Exception{
         String expected="nodnol";
-        StringReverse sr=new StringReverse();
-        String actual=sr.reverse("london");
+        StringReverse stringReverse=new StringReverse();
+        String actual=stringReverse.reverse("london");
         assertEquals(expected,actual);
     }
     @Test
     public void reverse_madam() throws Exception{
         String expected="madam";
-        StringReverse sr=new StringReverse();
-        String actual=sr.reverse("madam");
+        StringReverse stringReverse=new StringReverse();
+        String actual=stringReverse.reverse("madam");
         assertEquals(expected,actual);
     }
 }

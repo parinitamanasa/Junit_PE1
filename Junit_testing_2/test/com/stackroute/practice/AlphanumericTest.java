@@ -8,22 +8,22 @@ public class AlphanumericTest {
     @Test
     public void capital() throws Exception{
         String expected="Capital";
-        Alphanumeric an=new Alphanumeric();
-        String actual=an.alphanumeric('A');
+        Alphanumeric alphanumeric=new Alphanumeric();
+        String actual=alphanumeric.alphanumeric('A');
         assertEquals(expected,actual);
     }
     @Test
     public void lowercase() throws Exception {
         String expected = "Lower case";
-        Alphanumeric an = new Alphanumeric();
-        String actual = an.alphanumeric('c');
+        Alphanumeric alphanumeric = new Alphanumeric();
+        String actual = alphanumeric.alphanumeric('c');
         assertEquals(expected, actual);
     }
     @Test
     public void specialcharacter() throws Exception {
         String expected = "Special Character";
-        Alphanumeric an = new Alphanumeric();
-        String actual = an.alphanumeric('%');
+        Alphanumeric alphanumeric = new Alphanumeric();
+        String actual = alphanumeric.alphanumeric('%');
         assertEquals(expected, actual);
     }
 }

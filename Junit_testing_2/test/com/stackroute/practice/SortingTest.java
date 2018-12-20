@@ -8,15 +8,15 @@ public class SortingTest {
     @Test
     public void sorting_false() throws Exception{
         String expected="544332 10 false";
-        Sorting so=new Sorting();
-        String actual=so.sorting(234534);
+        Sorting sorting=new Sorting();
+        String actual=sorting.sorting(234534);
         assertEquals(expected,actual);
     }
     @Test
     public void sorting_true() throws Exception{
         String expected="88532 18 true";
-        Sorting so=new Sorting();
-        String actual=so.sorting(58382);
+        Sorting sorting=new Sorting();
+        String actual=sorting.sorting(58382);
         assertEquals(expected,actual);
     }
 

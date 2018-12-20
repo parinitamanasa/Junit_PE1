@@ -8,8 +8,8 @@ public class StringRepeatTest {
     @Test
     public void repeat_5times() throws Exception{
         String expected="Stackrouterouterouterouterouteroute";
-        StringRepeat sr=new StringRepeat();
-        String actual=sr.stringrepeat(5,"Stackroute");
+        StringRepeat stringRepeat=new StringRepeat();
+        String actual=stringRepeat.stringrepeat(5,"Stackroute");
         assertEquals(expected,actual);
     }
 
